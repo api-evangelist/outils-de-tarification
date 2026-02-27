@@ -1,0 +1,119 @@
+name: Outils De Tarification
+description: A comprehensive pricing tools API service providing product pricing, cost calculation, and tariff management capabilities
+image: https://example.com/outils-de-tarification-logo.png
+url: https://www.outilsdetarification.com
+created: '2024-01-15'
+modified: '2024-01-15'
+tags:
+- pricing
+- tarification
+- billing
+- cost calculation
+- commerce
+apis:
+- name: Pricing Calculation API
+  description: Core API for calculating product prices based on various factors including taxes, discounts, and currency
+  image: https://api.outilsdetarification.com/images/pricing-api.png
+  humanURL: https://www.outilsdetarification.com/pricing-api
+  baseURL: https://api.outilsdetarification.com/v1/pricing
+  tags:
+  - pricing
+  - calculation
+  - taxes
+  properties:
+  - type: Documentation
+    url: https://docs.outilsdetarification.com/pricing
+  - type: OpenAPI
+    url: https://api.outilsdetarification.com/openapi/pricing.json
+  - type: Authentication
+    url: https://docs.outilsdetarification.com/authentication
+  - type: RateLimits
+    url: https://docs.outilsdetarification.com/rate-limits
+  contact:
+  - type: Email
+    url: mailto:api-support@outilsdetarification.com
+  - type: Support
+    url: https://support.outilsdetarification.com
+- name: Tariff Management API
+  description: API for managing tariffs, price lists, and pricing rules across multiple products and regions
+  image: https://api.outilsdetarification.com/images/tariff-api.png
+  humanURL: https://www.outilsdetarification.com/tariff-api
+  baseURL: https://api.outilsdetarification.com/v1/tariffs
+  tags:
+  - tariffs
+  - price lists
+  - management
+  properties:
+  - type: Documentation
+    url: https://docs.outilsdetarification.com/tariffs
+  - type: OpenAPI
+    url: https://api.outilsdetarification.com/openapi/tariffs.json
+  - type: Postman Collection
+    url: https://www.postman.com/outilsdetarification/tariffs
+  contact:
+  - type: Email
+    url: mailto:api-support@outilsdetarification.com
+- name: Currency Conversion API
+  description: Real-time currency conversion API with support for multiple currencies and historical exchange rates
+  image: https://api.outilsdetarification.com/images/currency-api.png
+  humanURL: https://www.outilsdetarification.com/currency-api
+  baseURL: https://api.outilsdetarification.com/v1/currency
+  tags:
+  - currency
+  - conversion
+  - exchange rates
+  properties:
+  - type: Documentation
+    url: https://docs.outilsdetarification.com/currency
+  - type: OpenAPI
+    url: https://api.outilsdetarification.com/openapi/currency.json
+  - type: SDK
+    url: https://github.com/outilsdetarification/currency-sdk
+  contact:
+  - type: Email
+    url: mailto:api-support@outilsdetarification.com
+- name: Discount Engine API
+  description: Flexible discount and promotion management API supporting various discount types and rules
+  image: https://api.outilsdetarification.com/images/discount-api.png
+  humanURL: https://www.outilsdetarification.com/discount-api
+  baseURL: https://api.outilsdetarification.com/v1/discounts
+  tags:
+  - discounts
+  - promotions
+  - pricing rules
+  properties:
+  - type: Documentation
+    url: https://docs.outilsdetarification.com/discounts
+  - type: OpenAPI
+    url: https://api.outilsdetarification.com/openapi/discounts.json
+  - type: Changelog
+    url: https://docs.outilsdetarification.com/changelog
+  contact:
+  - type: Email
+    url: mailto:api-support@outilsdetarification.com
+common:
+  properties:
+  - type: Portal
+    url: https://portal.outilsdetarification.com
+  - type: SignUp
+    url: https://portal.outilsdetarification.com/signup
+  - type: Login
+    url: https://portal.outilsdetarification.com/login
+  - type: Terms of Service
+    url: https://www.outilsdetarification.com/terms
+  - type: Privacy Policy
+    url: https://www.outilsdetarification.com/privacy
+  - type: Status
+    url: https://status.outilsdetarification.com
+  - type: Blog
+    url: https://blog.outilsdetarification.com
+  - type: GitHub
+    url: https://github.com/outilsdetarification
+  - type: Twitter
+    url: https://twitter.com/outilstarif
+maintainers:
+- type: Primary
+  name: Outils De Tarification Team
+  email: maintainers@outilsdetarification.com
+  url: https://www.outilsdetarification.com/about
+include: []
